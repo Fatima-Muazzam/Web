@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text = "   Hello World!";
+        let length = text.length;
+        let char= text.charAt(5)
+
+        let text1 = "sea";
+        let text2 = "food";
+        let result = text1.concat(text2);
+
+        let num = 15;
+        let t = num.toString(2);
+
+        document.write(length)
+        document.write("<br>" + text.toUpperCase())
+        document.write("<br>" + text.toLowerCase())
+        document.write("<br>" + text.includes("e"))
+        document.write("<br>" + text.startsWith("H"))
+        document.write("<br>" + text.endsWith("d"))
+        document.write("<br>" + text.search("e"))
+        document.write("<br>" + text.match("W"))
+        document.write("<br>" + text.indexOf("o"))
+        document.write("<br>" + text.lastIndexOf("o"))
+        document.write("<br>" + text.replace("World" , "Welcome"))
+        alert(text.trim())
+        document.write("<br>" + char)
+        document.write("<br>" + text.charCodeAt(5))
+        document.write("<br>" + String.fromCharCode(65))
+        document.write("<br>" + result)
+        document.write("<br>" + text.split(""))
+        document.write("<br>" + text.repeat(4))
+        document.write("<br>" + text.slice(2,5))
+        document.write("<br>" + text.substring(4,5))
+        document.write("<br>" + t)
+        document.write("<br>" + text.valueOf())
+
+        
+
+
+
+    </script>
+</body>
+</html>
